@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_episode_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textAirDateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/air_episode_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textAirDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/airdate"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textEpisodeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/code_episode_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textEpisode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/episode"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textListCharacterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list_characters_episode_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCharacter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textCreatedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_episode_created_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textCreated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/created"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

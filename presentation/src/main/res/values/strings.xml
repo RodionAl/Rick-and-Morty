@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Rick And Morty</string>
+    <string name="exit">Please press button again to exit</string>
+    <string name="name_episode_title">The name of the episode:</string>
+    <string name="air_episode_title">The air date of the episode:</string>
+    <string name="airdate">airDate</string>
+    <string name="code_episode_title">The code of the episode:</string>
+    <string name="episode">episode</string>
+    <string name="list_characters_episode_title">List of characters who have been seen in the episode:</string>
+    <string name="time_episode_created_title">Time at which the episode was created in the database:</string>
+    <string name="name_location_title">The name of the location:</string>
+    <string name="type_location_title">The type of the location:</string>
+    <string name="dimension_ilocation_title">The dimension in which the location is located:</string>
+    <string name="dimension">dimension</string>
+    <string name="list_character_location_title">List of character who have been last seen in the location:</string>
+    <string name="time_location_created_title">Time at which the location was created in the database:</string>
+    <string name="name_character_title">The name of the character:</string>
+    <string name="name">name</string>
+    <string name="status_character_title">The status of the character:</string>
+    <string name="status">status</string>
+    <string name="species_character_title">The species of the character:</string>
+    <string name="species">species</string>
+    <string name="type_character_title">The type or subspecies of the character:</string>
+    <string name="type">type</string>
+    <string name="gender_character_title">The gender of the character:</string>
+    <string name="gender">gender</string>
+    <string name="name_character_location_title">Name to the character\'s origin location:</string>
+    <string name="origin_name">origin.name</string>
+    <string name="name_character_location_endpoint_title">Name the character\'s last known location endpoint:</string>
+    <string name="location_name">location.name</string>
+    <string name="list_episodes_character_appeared_title">List of episodes in which this character appeared:</string>
+    <string name="time_character_created_title">Time at which the character was created in the database:</string>
+    <string name="created">created</string>
+    <string name="code_episode">code episode</string>
+    <string name="date">date</string>
+    <string name="type_location">type location</string>
+</resources>

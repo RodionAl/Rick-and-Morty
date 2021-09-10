@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageCharacter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_character_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textStatusTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status_character_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textSpeciesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/species_character_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textSpecies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/species"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textTypeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_character_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textGenderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_character_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textOriginNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_character_location_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textOriginName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/origin_name"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textLocationNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_character_location_endpoint_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textLocationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_name"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textListEpisodesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list_episodes_character_appeared_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewEpisode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textCreatedTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/time_character_created_title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:id="@+id/textCreated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/created"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="15dp"
+            android:gravity="left"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
